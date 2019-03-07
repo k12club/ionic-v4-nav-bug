@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Page 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-subtitle>Demo</ion-card-subtitle>
+        <ion-card-title>Page 1</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>This is a demo page</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-list>
+      <ion-item *ngFor="let d of data">
+        {{d.title}}
+      </ion-item>
+    </ion-list>
+</ion-content>
+

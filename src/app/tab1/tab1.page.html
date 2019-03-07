@@ -1,0 +1,20 @@
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-subtitle>Demo</ion-card-subtitle>
+        <ion-card-title>Navigation Bug</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>This app demos a navigation bug</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>iOS Bugs</ion-label>
+      </ion-list-header>
+      <ion-item (click)="noAnimation()" detail>
+        <ion-icon slot="start" color="medium" name="bug"></ion-icon>
+        <ion-label>No animation bug</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>

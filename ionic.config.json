@@ -1,0 +1,7 @@
+{
+  "name": "navigation-bugs-demo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

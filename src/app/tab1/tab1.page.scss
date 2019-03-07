@@ -1,0 +1,16 @@
+ion-content {
+  --default: rgb(82, 82, 82);
+  --background: var(--default);
+
+  .welcome-card {
+    --background: #ffffff;
+  }
+
+  ion-list {
+    ion-item, ion-list-header {
+      --color: #ffffff;
+      --background: var(--default);
+    }
+  }
+
+}
